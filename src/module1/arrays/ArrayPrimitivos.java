@@ -4,20 +4,20 @@ public class ArrayPrimitivos {
 
     public static void main(String[] args) {
 
-        int[] numeros; //também pode ser dessa forma: int numeros[];
-        String[] nomes = new String[3]; //precisa ser inicializado com um valor
+        int[] numeros1; //também pode ser dessa forma: int numeros1[];
+        int[] numeros = new int[3]; //precisa ser inicializado com um valor
 
-        nomes[0] = "emanoel";
-        nomes[1] = "campos";
-        nomes[2] = "viana";
+        numeros[0] = 9;
+        numeros[1] = 7;
+        numeros[2] = 13;
 
-        String meuNome = nomes[0];
+        int meuNumero = numeros[0];
 
-        System.out.println(meuNome);
-        System.out.println(nomes.length);
+        System.out.println(meuNumero);
+        System.out.println(numeros.length);
 
-        for(int i = 0; i < nomes.length; i++) {
-            System.out.print(nomes[i] + " ");
+        for(int i = 0; i < numeros.length; i++) {
+            System.out.print(numeros[i] + " ");
         }
 
     }
