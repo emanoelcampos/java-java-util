@@ -1,4 +1,4 @@
-package module3.arrayslist.generics;
+package module3.arrayslist.generics.pt1;
 
 public class TestaGuardador {
 
