@@ -7,12 +7,11 @@ public class Autoboxing {
 
     public static void main(String[] args) {
 
-        int[] idades = new int[5];
-        String[] nomes = new String[5];
-
         int idade = 26; //Integer
-        Integer idadeReferencia = new Integer(26);
+        Integer idadeReferencia = Integer.valueOf(26);
+
+        //Autoboxing
         List<Integer> numeros = new ArrayList<Integer>();
-        numeros.add(29); //Autoboxing
+        numeros.add(29);
     }
 }
